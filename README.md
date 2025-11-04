@@ -52,7 +52,7 @@ chmod +x demo_tmux.sh (ให้สิทธิ์รันคพสั่ง )
 ดูรายชื่อในห้อง  
 <b>DM < client_id > < message ></b>    
 ส่งข้อความส่วนตัว  
-<b>LEAVE < room ></b> 
+<b>LEAVE < room ></b>   
 ออกจากห้อง  
-<b>QUIT < room ></b> 
+<b>QUIT < room ></b>   
 ออกจากระบบ
