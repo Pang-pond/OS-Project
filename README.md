@@ -9,7 +9,7 @@
 - การส่งข้อความสาธารณะ (SAY)
 - การส่งข้อความส่วนตัว (DM)
 - การดูรายชื่อสมาชิกในห้อง (WHO)
-- ออกจากห้องที่join (LEAVE)
+- ออกจากห้อง (LEAVE)
 - ออกจากระบบ (QUIT)
 
 ## Project Structure
@@ -52,3 +52,7 @@ chmod +x demo_tmux.sh (ให้สิทธิ์รันคพสั่ง )
 ดูรายชื่อในห้อง  
 <b>DM < client_id > < message ></b>    
 ส่งข้อความส่วนตัว
+<b>LEAVE < client_id > < message ></b> 
+ออกจากห้อง
+<b>QUIT < client_id > < message ></b> 
+ออกจากระบบ
