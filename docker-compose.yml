@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  server:
+    build: .
+    image: ipc-chat:latest
+    command: ["./server"]
+    ipc: host
+    tty: true
+  client:
+    image: ipc-chat:latest
+    depends_on:
+      - server
+    command: ["./client", "${CLIENT_ID:-1001}", "${CLIENT_NAME:-Alice}"]
+    ipc: host
+    stdin_open: true
+    tty: true
